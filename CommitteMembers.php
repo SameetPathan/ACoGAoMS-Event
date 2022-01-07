@@ -16,7 +16,7 @@
   <!--Navbar Start-->
   <div>
     <!-- Image and text -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
    <!--   <img src="/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">-->
       <a class="navbar-brand" href="/Event/index.php">EventName</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
