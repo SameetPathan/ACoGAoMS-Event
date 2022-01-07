@@ -16,8 +16,8 @@
   <!--Navbar Start-->
   <div>
     <!-- Image and text -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
-   <!--   <img src="/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!--   <img src="/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">-->
       <a class="navbar-brand" href="/index.php">EventName</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -60,7 +60,7 @@
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-            Registration
+              Registration
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
               <li><a class="dropdown-item" href="/Register/ModeOfPayment.php">Mode of Payment</a></li>
@@ -92,7 +92,7 @@
 
         </ul>
 
-       <a href="/Register/Register.php"> <button class="btn btn-outline-success " type="submit">Register</button></a>
+        <a href="/Register/Register.php"> <button class="btn btn-outline-success " type="submit">Register</button></a>
 
       </div>
     </nav>
@@ -100,12 +100,18 @@
   </div>
   <!--Navbar End-->
 
+  <!--Inside Stuff start-->
+  
+  
+  
+  
+  <!--Inside Stuff End-->
 
-
-
-
-
-
+  <!--Footer Strat-->
+  <div class="fixed-bottom bg-dark text-center">
+      <p style="color: white;">Pimpri Chinchwad College of Engineering, Pune </p>
+  </div>
+  <!--Footer End--->
   <!--scripts-->
 
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
