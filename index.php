@@ -18,7 +18,7 @@
     <!-- Image and text -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
    <!--   <img src="/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">-->
-      <a class="navbar-brand" href="/Event/index.php">EventName</a>
+      <a class="navbar-brand" href="/index.php">EventName</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -34,19 +34,19 @@
               About Us
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="/Event/About/Conference.php">Conference</a></li>
+              <li><a class="dropdown-item" href="/About/Conference.php">Conference</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="/Event/About/Game.php">Gwalior</a></li>
+              <li><a class="dropdown-item" href="/About/Game.php">Gwalior</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="/Event/About/Pccoe.php">Pccoe</a></li>
+              <li><a class="dropdown-item" href="/About/Pccoe.php">Pccoe</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="/Event/About/Pune.php">Pune</a></li>
+              <li><a class="dropdown-item" href="/About/Pune.php">Pune</a></li>
             </ul>
           </li>
 
@@ -55,7 +55,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/Event/Paper_Submission.php">Paper Submission</a>
+            <a class="nav-link" href="/Paper_Submission.php">Paper Submission</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -63,11 +63,11 @@
             Registration
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="/Event/Register/ModeOfPayment.php">Mode of Payment</a></li>
+              <li><a class="dropdown-item" href="/Register/ModeOfPayment.php">Mode of Payment</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="/Event/Register/Register.php">Register</a></li>
+              <li><a class="dropdown-item" href="/Register/Register.php">Register</a></li>
               <li>
 
             </ul>
@@ -75,24 +75,24 @@
 
 
           <li class="nav-item">
-            <a class="nav-link" href="/Event/CommitteMembers.php">Committee Members</a>
+            <a class="nav-link" href="/CommitteMembers.php">Committee Members</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/Event/PastEvents.php">Past Events</a>
+            <a class="nav-link" href="/PastEvents.php">Past Events</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/Event/Downloads.php">Downloads</a>
+            <a class="nav-link" href="/Downloads.php">Downloads</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/Event/Contact/Contact.php">Contact Us</a>
+            <a class="nav-link" href="/Contact/Contact.php">Contact Us</a>
           </li>
 
         </ul>
 
-       <a href="/Event/Register/Register.php"> <button class="btn btn-outline-success " type="submit">Register</button></a>
+       <a href="/Register/Register.php"> <button class="btn btn-outline-success " type="submit">Register</button></a>
 
       </div>
     </nav>
