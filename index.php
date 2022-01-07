@@ -26,12 +26,12 @@
         <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
 
           <li class="nav-item active">
-            <a class="nav-link font" href="/Event/index.php">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link font" href="/index.php">Home <span class="sr-only">(current)</span></a>
           </li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-              About Us D
+              About Us
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
               <li><a class="dropdown-item" href="/Event/About/Conference.php">Conference</a></li>
@@ -51,7 +51,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/Event/Scope.php">Scope</a>
+            <a class="nav-link" href="/Scope.php">Scope</a>
           </li>
 
           <li class="nav-item">
