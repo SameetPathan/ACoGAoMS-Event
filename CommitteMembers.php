@@ -38,7 +38,7 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="/Event/About/Game.php">Gwalior</a></li>
+              <li><a class="dropdown-item" href="/Event/About/Gwalior.php">Gwalior</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
