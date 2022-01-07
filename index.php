@@ -9,6 +9,28 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <link rel="stylesheet" href="/style/style.css">
+  <style>
+     
+        h1 {
+          
+            text-align: center;
+            color: white;
+            font-size: 8em;
+            transition: 0.5s;
+            font-family: 'Courier New', monospace;
+        }
+ 
+        h1:hover {
+            text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                0 3px 0 #ccc, 0 4px 0 #ccc,
+                0 5px 0 #ccc, 0 6px 0 #ccc,
+                0 7px 0 #ccc, 0 8px 0 #ccc,
+                0 9px 0 #ccc, 0 10px 0 #ccc,
+                0 11px 0 #ccc, 0 12px 0 #ccc,
+                0 20px 30px rgba(0, 0, 0, 0.5);
+        }
+   
+  </style>
   <title>Home</title>
 </head>
 
@@ -101,15 +123,60 @@
   <!--Navbar End-->
 
   <!--Inside Stuff start-->
-  
-  
-  
-  
+
+  <!--Slider Start-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Images/home/bg2.jpg" class="d-block w-100" style="background-repeat:no-repeat;width:100%;height:500px;" alt="...">
+        <div class="carousel-caption d-none d-md-block ">
+          <h1 style="font-size:40px;font-weight:800;" class="h">9 th International Conference and 25 th Annual Conference of Gwalior Academy of Mathematical Sciences ICGAMS-2K21</h1>
+          <p style="font-size:20px;font-family: 'Courier New', monospace;">29th SEP – 1st SEP, 2022
+Organized by
+
+Pimpri Chinchwad Education Trust’s
+Pimpri Chinchwad College of Engineering, Pune .</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./Images/home/bg1.jpg" class="d-block w-100" style="background-repeat:no-repeat;width:100%;height:500px;" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./Images/home/bg2.jpg" class="d-block w-100" style="background-repeat:no-repeat;width:100%;height:500px;" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+  <!--Slider End-->
+
+
+
+
   <!--Inside Stuff End-->
 
   <!--Footer Strat-->
   <div class="fixed-bottom bg-dark text-center">
-      <p style="color: white;">Pimpri Chinchwad College of Engineering, Pune </p>
+    <p style="color: white;">Pimpri Chinchwad College of Engineering, Pune </p>
   </div>
   <!--Footer End--->
   <!--scripts-->
