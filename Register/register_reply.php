@@ -134,16 +134,70 @@
 
   <!--Inside Stuff start-->
 
-  <div class="header">
-    <h1 style="font-size:35px;" class="pt-5 pb-5">9 th International Conference and 25 th Annual Conference of Gwalior Academy of Mathematical Sciences ICGAMS-2K21</h1>
-    <p class="pt-5 pb-5">On
-29 th – 1 st SEP, 2022
-Organized by Pimpri Chinchwad Education Trust’s
-Pimpri Chinchwad College of Engineering, Pune-411044.</p>
-  </div>
 
   <!--Slider Start-->
+  
+  <center>
+        <?php
+  
+        $host = 'localhost:3307';
+        $user = 'root';
+        $pass = 'jarvis';
+        $dbname = 'users';
+        $conn = mysqli_connect($host, $user, $pass, $dbname);
+       //// if (!$conn) {
+         //   die('Could not connect: ' . mysqli_connect_error());
+         //}
+         //   echo 'Connected successfully';
+ 
+        // Taking all 5 values from the form data(input)
+        $name =  $_REQUEST['name'];
+        $affiliation = $_REQUEST['affiliation'];
+        $country =  $_REQUEST['country'];
+        $city = $_REQUEST['city'];
+        $state = $_REQUEST['state'];
+        $pincode = $_REQUEST['pincode'];
+        $mobileno = $_REQUEST['mobileno'];
+        $email = $_REQUEST['email'];
+        $transactionid = $_REQUEST['transactionid'];
+        $nameofbank = $_REQUEST['nameofbank'];
+        $dateoftransfer = $_REQUEST['dateoftransfer'];
+        $amountpaid = $_REQUEST['amountpaid'];
+        $accountnumber = $_REQUEST['accountnumber'];
+        $titleofpaper = $_REQUEST['titleofpaper'];
+          
+        // Performing insert query execution
+        // here our table name is college
+        $sql = "INSERT INTO registerdata  VALUES ('$name','$affiliation', 
+            '$country','$city','$state','$pincode',
+            '$mobileno','$email','$transactionid','$nameofbank',
+            '$dateoftransfer','$amountpaid','$accountnumber','$titleofpaper'
+            )";
+          
+        if(mysqli_query($conn, $sql)){
+            echo "<div class='alert alert-success' role='alert'>
+            Registration Successfull ! We will Notify you by Email after Verification.
+          </div><a href='../index.php'> <button class='btn btn-info' type='submit'>Back to Home Page</button></a>
+          "; 
+  
+           
+        } else{
+            echo "<div class='alert alert-danger' role='alert'>
+            Error while Registration Please Try Again or Contact Us Later
+          </div>";
+          $err= strtok(mysqli_error($conn), " ");
+          if($err=="Duplicate"){
+            echo "<div class='alert alert-danger' role='alert'>
+            Email or Phone Number Already Registered for Any query Contact Us
+          </div>  <a href='./Register.php'> <button class='btn btn-danger' type='submit'>Return to Register</button></a>";
+          }
 
+        }
+          
+        // Close connection
+        mysqli_close($conn);
+        ?>
+    </center>
 
 
 
